@@ -162,6 +162,7 @@ $ git pull #Incorpora as mudanças de rep para o branch local. Equivale a git fe
 ----
 
 ### GitHub Workflow
+
 ![[img_20181217_140458.236_resized.jpg]]
 
 
