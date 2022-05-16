@@ -5,7 +5,7 @@ https://www.jetbrains.com/pt-br/idea/
 
 ### Shortcuts
 ```shell
-Ctrl + k # Commit
+Ctrl + Alt + k # Commit
 Ctrl + Shift + k # Push
 ```
 
@@ -20,3 +20,8 @@ Ctrl + Shift + /
 ```
 
 test
+
+-   Ctrl + Alt + K → **Commit**
+-   Ctrl + Shift + K → **Push**
+-   Ctrl + Shift + F → **Global Search**
+-   Shift x 2 → **File Search**
