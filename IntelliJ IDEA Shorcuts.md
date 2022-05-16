@@ -3,13 +3,13 @@
 
 https://www.jetbrains.com/pt-br/idea/
 
-### Shortcuts
-
-Pus
+#### Push / Commit
 ```shell
 Ctrl + Alt + k # Commit
 Ctrl + Shift + k # Push
 ```
+
+#### Editor
 
 ```shell
 Ctrl + D # Duplicate Line or Selection
