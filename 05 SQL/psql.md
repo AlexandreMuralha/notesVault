@@ -20,11 +20,5 @@ psql is a terminal-based front-end to PostgreSQL. It enables you to type in quer
 
 ```
 
-
-```
-
-
-```
-
 ----
 tags: #sql #bancos-da-dados #terminal
