@@ -81,7 +81,8 @@ Branches permitem criar ambientes de desenvolvimento diferentes para o mesmo pro
 $ git branch [nome-do-branch] #criar um branch novo
 $ git checkout [nome-do-branch] #muda o ambiente para o branch definido)
 $ git checkout -b [nome-do-branch] #cria e muda o ambiente para o branch novo
-$ git merge [nome-do-branch] #faz o merge entre o branch novo e o master ou destino. Nota: comando tem que ser dado no branch de destino.
+$ git merge [nome-do-branch] #faz o merge entre o branch novo e o master ou destino. Nota: comando tem que ser dado 
+no branch de destino.
 ```
 
 ---
