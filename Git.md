@@ -163,8 +163,7 @@ $ git pull #Incorpora as mudanças de rep para o branch local. Equivale a git fe
 
 ### GitHub Workflow
 
-![[img_20181217_140458.236_resized.jpg]]
-
+![](img_20181217_140458.236_resized.jpg)
 
 **Workflow Colaboração GitHub:**
 
@@ -218,7 +217,7 @@ Gists are a simples way to share snippets and notes with others (side github pro
 
 * Don´t support directories
 * Repository-based
-* Public or Secret
+* Public or Private
 * Downloadable
 
 Can be used to embed code in a site.
