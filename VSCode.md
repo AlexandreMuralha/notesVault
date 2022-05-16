@@ -11,4 +11,4 @@ O Visual Studio Code é um editor de código desenvolvido pela Microsoft para Wi
 **ID**:  2109251358
 **tags**: #
 **links**:
-- 
+- https://code.visualstudio.com/
