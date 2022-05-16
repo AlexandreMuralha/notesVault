@@ -4,6 +4,8 @@
 https://www.jetbrains.com/pt-br/idea/
 
 ### Shortcuts
+
+Pus
 ```shell
 Ctrl + Alt + k # Commit
 Ctrl + Shift + k # Push
