@@ -1,8 +1,7 @@
 
+# IntelliJ IDEA Shorcuts
 
 https://www.jetbrains.com/pt-br/idea/
-
-
 
 ### Shortcuts
 ```shell
