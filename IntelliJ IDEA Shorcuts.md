@@ -19,8 +19,6 @@ To add or remove a block comment:
 Ctrl + Shift + /
 ```
 
-test
-
 -   Ctrl + Alt + K → **Commit**
 -   Ctrl + Shift + K → **Push**
 -   Ctrl + Shift + F → **Global Search**
