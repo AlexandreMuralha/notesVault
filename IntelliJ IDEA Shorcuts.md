@@ -17,8 +17,7 @@ Alt + Shift + Down #Duplicate Entire Line (this is vscode shortcut not by defaul
 
 
 ```shell
-To add or remove a block comment:
-Ctrl + Shift + /
+
 ```
 
 -   Ctrl + Alt + K → **Commit**
