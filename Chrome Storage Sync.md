@@ -1,11 +1,8 @@
-
-
 Chrome Storage é uma API que visa salvar, acessar e controlar alterações de dados do usuário ou configuraões no contexto de uma extensão do Google Chrome. 
+
 Semelhante ao localStorage API, porem otimizada especificamente para as extensões do Google Chrome.
 
-
-
-### Manifest
+## Manifest
 Para usarmos a API teremos primeiro que indicar a permissão no ficheiro manifest.json da nossa extensão. 
 Por exemplo:
 ```json
@@ -21,30 +18,22 @@ Por exemplo:
 }
 ```
 
-### Sintaxe
 
-
-
-
-
-This API has been optimized to meet the specific storage needs of extensions. It provides the same storage capabilities as the [localStorage API](https://developer.mozilla.org/docs/Web/API/Window/localStorage) with the following key differences:
-
-Use the `chrome.storage` API to store, retrieve, and track changes to user data.
-
-----------
-
-## Usage
-
+## Uso
 To store user data for your extension, you can use either `storage.sync`:
 
 ```js
-chrome.storage.sync.set({key: value}, function() {  console.log('Value is set to ' + value);});chrome.storage.sync.get(['key'], function(result) {  console.log('Value currently is ' + result.key);});
+chrome.storage.sync.set({key: value}, function() { 
+console.log('Value is set to ' + value);});chrome.storage.sync.get(['key'], 
+	function(result) {  console.log('Value currently is ' + result.key);});
 ```
 
 or `storage.local`:
 
 ```js
-chrome.storage.local.set({key: value}, function() {  console.log('Value is set to ' + value);});chrome.storage.local.get(['key'], function(result) {  console.log('Value currently is ' + result.key);});
+chrome.storage.local.set({key: value}, function() {  
+console.log('Value is set to ' + value);});chrome.storage.local.get(['key'], 
+	function(result) {  console.log('Value currently is ' + result.key);});
 ```
 
 When using `storage.sync`, the stored data will automatically be synced to any Chrome browser that the user is logged into, provided the user has sync enabled.
