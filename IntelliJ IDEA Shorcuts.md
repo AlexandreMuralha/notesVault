@@ -10,11 +10,11 @@ Ctrl + Shift + k # Push
 ```
 
 #### Editor
-
 ```shell
 Ctrl + D # Duplicate Line or Selection
 Alt + Shift + Down #Duplicate Entire Line (this is vscode shortcut not by default in IntellJ)
 ```
+
 
 ```shell
 To add or remove a block comment:
