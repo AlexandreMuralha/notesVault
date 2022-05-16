@@ -11,7 +11,7 @@ Ctrl + Shift + k # Push
 
 ```shell
 Ctrl + D # Duplicate Line or Selection
-Alt + Shift + Down #Duplicate Entire Line 
+Alt + Shift + Down #Duplicate Entire Line (not )
 ```
 
 ```shell
