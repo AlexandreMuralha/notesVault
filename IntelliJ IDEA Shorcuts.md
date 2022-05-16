@@ -11,7 +11,7 @@ Ctrl + Shift + k # Push
 
 ```shell
 Ctrl + D # Duplicate Line or Selection
-Alt + Shift + Down #Duplicate Entire Line (not )
+Alt + Shift + Down #Duplicate Entire Line (this is vscode shortcut not by default in IntellJ)
 ```
 
 ```shell
