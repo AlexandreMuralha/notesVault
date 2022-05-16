@@ -1,21 +1,19 @@
 
-### Git - fundamentos 
+# Git 
+
+### Fundamentos 
 
 Git é um sistema de controle de versões (versionamento).
 
 * Any Sequence of bytes = SHA1 Hash
 * Every object in git has its own SHA1
 * SHA1 are Unique
-
 ---
-
 Fundamental Git Rules:
 1. The current branch tracks new commits.
 2. When you move to another commit, git updates your working directory.
 3. Unreacheble objects are garbage collected.
-
 ------
-
  Estágios dentro do Git:
 - Working Directory
 - Staging Area
@@ -33,7 +31,6 @@ $ git config --global user.mail "email" #seta o email do user
 $ git config --global core.editor editor #configura o editor padrão nos commits sem -m, ex: vim, vscode)
 $ git config --list #mostra as configurações
 ```
-
 ---
 
 ### Comandos Básicos
@@ -77,6 +74,18 @@ $ git rm [nome-do-arquivo] #Remove do registro do repo os arquivos nomeados
 
 ---
 
+### Branches
+Branches permitem criar ambientes de desenvolvimento diferentes para o mesmo projeto, podendo fazer commits sem alterar o master. Ideal para testes.
+
+```bash
+$ git branch [nome-do-branch] #criar um branch novo
+$ git checkout [nome-do-branch] #muda o ambiente para o branch definido)
+$ git checkout -b [nome-do-branch] #cria e muda o ambiente para o branch novo
+$ git merge [nome-do-branch] #faz o merge entre o branch novo e o master ou destino. Nota: comando tem que ser dado no branch de destino.
+```
+
+---
+
 ### Tags
 Tags servem como pontos de atalho para o um determinado status do sistema.(são geralmente utilizadas com as versões).
 
@@ -91,21 +100,8 @@ $ git tag -d [tag] #apaga a tag indicada
 ```
 
 Dois tipos de tags:
-
 * lightweight
 * annotated
-
----
-
-### Branches
-Branches permitem criar ambientes de desenvolvimento diferentes para o mesmo projeto, podendo fazer commits sem alterar o master. Ideal para testes.
-
-```bash
-$ git branch [nome-do-branch] #criar um branch novo
-$ git checkout [nome-do-branch] #muda o ambiente para o branch definido)
-$ git checkout -b [nome-do-branch] #cria e muda o ambiente para o branch novo
-$ git merge [nome-do-branch] #faz o merge entre o branch novo e o master ou destino. Nota: comando tem que ser dado no branch de destino.
-```
 
 ----
 
@@ -141,7 +137,7 @@ Diference between **Merge** and **Rebase:**
 
 ---
 
-## GitHub
+### GitHub
 ```bash
 $ git remote -v #verifica se há alguma ligação remota configurada
 $ git remote add origin [url] #adiciona o repositório remoto ao local
@@ -166,8 +162,8 @@ $ git pull #Incorpora as mudanças de rep para o branch local. Equivale a git fe
 ----
 
 ### GitHub Workflow
+![[img_20181217_140458.236_resized.jpg]]
 
-![img_20181217_140458.236](img_20181217_140458.236.jpg)
 
 **Workflow Colaboração GitHub:**
 
