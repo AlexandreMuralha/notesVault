@@ -19,12 +19,7 @@ Alt + Shift + Down #Duplicate Entire Line (this is a vscode shortcut not by defa
 
 #### Search
 ```shell
-Ctrl + Shift + F → **Global Search**
-Shift x 2 → **File Search**
+Ctrl + Shift + F →  # Global Search
+Shift x 2 → # File Search
 
 ```
-
--   Ctrl + Alt + K → **Commit**
--   Ctrl + Shift + K → **Push**
--   Ctrl + Shift + F → **Global Search**
--   Shift x 2 → **File Search**
