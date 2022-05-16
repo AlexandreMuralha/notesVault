@@ -13,5 +13,5 @@ SQLite é um banco de dados leve, baseado em arquivo, que não necessita de um s
 **id**:  2108211136
 **tags**: #bancos-da-dados #sql #sqlite
 **links**:
-https://www.sqlite.org/index.html
+- https://www.sqlite.org/index.html
 https://pt.wikipedia.org/wiki/SQLite
