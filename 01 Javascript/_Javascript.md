@@ -7,6 +7,7 @@
 - [Constantes](#Constantes)
 ## Operadores_Aritméticos
 ## Operadores_Comparativos
+## Arrays
 ---
 
 ## Estrutura Léxica Básica
