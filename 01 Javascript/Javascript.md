@@ -1358,7 +1358,6 @@ Permite usar o expoente (multiplicar o mesmo numero base sobre sim mesmo x(expoe
 ---
 
 ## ES8
-
 ### String padding - permite adicionar espaços em uma string:
 ```jsx
     .padStart()
