@@ -220,7 +220,7 @@ Quando uma variável é inicializada mas não lhe é atribuido um valor, esta po
 
 ---
 
-## Operadores_Aritméticos
+## Operadores Aritméticos
 - Soma (+)
 - Subtração (-)
 - Multiplicação (*)
