@@ -456,7 +456,7 @@ Os dados retornados são do tipo booleano, sendo True caso o usuário selecione 
 
 ---
 
-## Conversão de Tipos_de_Dados
+## Conversão de Tipos de Dados
 
 A conversão do tipo de dados é necessária quando o javascript interpreta incorretamente um dado inserido.
 
