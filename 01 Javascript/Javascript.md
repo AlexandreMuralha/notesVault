@@ -1,4 +1,4 @@
-# Javascript Básico
+# Javascript
 - [Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
 - [Comentários](#Comentários)
 - [Variáveis](#Variáveis)
@@ -93,8 +93,8 @@ Como se fosse uma variável mas o seu valor é permanente.
 
    Apesar do Javascript ser uma linguagem **não tipada**, os seus valores tem tipos. Eles podem ser:
 
-   - [Number](_Javascript.md###Number) (inteiro ou de ponto flutuante)
-   - [String](_Javascript.md###String) (texto)
+   - [Number](Javascript.md###Number) (inteiro ou de ponto flutuante)
+   - [String](Javascript.md###String) (texto)
    - Booleano (verdadeiro ou falso)
    - Undefined
    - Null
