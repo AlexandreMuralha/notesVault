@@ -17,8 +17,8 @@
 - ## Funções
 - ## Manipulando o DOM
 - ## Objetos
-## DOM Events
-## Arrow_Functions
+- ## DOM Events
+- ## Arrow_Functions
 ## Destructuring
 ## ES7
 ## ES8
