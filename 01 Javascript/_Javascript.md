@@ -15,6 +15,7 @@
 ## Operadores_Lógicos
 ## Loops
 ## Funções
+## Manipulando o DOM
 ---
 
 ## Estrutura Léxica Básica
