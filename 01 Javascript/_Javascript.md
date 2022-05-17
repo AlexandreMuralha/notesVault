@@ -1,7 +1,7 @@
 # Javascript Básico
 ---
-[Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
-[Constantes](#Constantes)
+- [Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
+- [Constantes](#Constantes)
 
 ---
 
