@@ -7,10 +7,10 @@
 - [Constantes](#Constantes)
 ## Operadores_Aritméticos
 ## Operadores_Comparativos
-## Conditionals
 ## Arrays
 ## Métodos
 ## Conversão_de_Tipos_de_Dados
+## Conditionals
 ---
 
 ## Estrutura Léxica Básica
