@@ -14,7 +14,7 @@
 - [Truthy Falsy](#Truthy-Falsy)
 - ## Operadores_Lógicos- ## Operadores_Lógicos
 - ## Loops - ## Loops
-- ## Funções
+- ## Funções - ## Funções
 - ## Manipulando o DOM
 - ## Objetos
 - ## DOM Events
