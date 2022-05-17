@@ -20,6 +20,7 @@
 ## DOM Events
 ## Arrow_Functions
 ## Destructuring
+## ES7
 ---
 
 ## Estrutura Léxica Básica
