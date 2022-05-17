@@ -68,4 +68,4 @@ ajax.send();
 
 
 Links:
-https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHTTPRequest
+- https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHTTPRequest
