@@ -15,8 +15,8 @@
 - ## Operadores_Lógicos- ## Operadores_Lógicos
 - ## Loops - ## Loops
 - ## Funções - ## Funções
-- ## Manipulando o DOM
-- ## Objetos
+- ## Manipulando o DOM - ## Manipulando o DOM
+- ## Objetos - ## Objetos
 - ## DOM Events
 - ## Arrow_Functions
 - ## Destructuring
