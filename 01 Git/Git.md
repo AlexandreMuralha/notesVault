@@ -64,7 +64,7 @@ $ git log --pretty=oneline #Mostra o log, um commit por linha
 ```bash
 $ git diff #Mostra todas as alterações efetuadas nos arquivos
 $ git diff [ash-do-comit] #Mostra todas as alterações efetuadas entre o commit atual e especificado no comando
-$ git diff [ash-do-comit] [ash-do-comit] #Mostra todas as alterações efetuadas entre os dois commits especificados no comando
+$ git diff [ash-do-comit] [ash-do-comit] #Mostra todas as alte efetuadas entre os dois commits especificados no comando
 $ git --staged #Mostra todas as alterações nos arquivos que estão na stagging area
 $ gitk #Abre o visualizador de relatórios
 $ git reset head [nome-do-arquivo] #Remove da stagging area um arquivo adicionado por engano
