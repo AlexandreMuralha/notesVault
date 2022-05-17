@@ -19,6 +19,7 @@
 ## Objetos
 ## DOM Events
 ## Arrow_Functions
+## Destructuring
 ---
 
 ## Estrutura Léxica Básica
