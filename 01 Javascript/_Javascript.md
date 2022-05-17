@@ -6,7 +6,7 @@
 - [Tipos de dados](#Tipos-de-dados)
 - [Constantes](#Constantes)
 - [Operadores Aritméticos](#Operadores-Aritméticos)
-## Operadores_Comparativos
+- [Operadores_Comparativos## Operadores_Comparativos
 ## Arrays
 ## Métodos
 ## Conversão_de_Tipos_de_Dados
