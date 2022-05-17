@@ -10,7 +10,7 @@
 - [Arrays](#Arrays)
 - [Métodos](#Métodos)
 - [Conversão de Tipos de Dados](#Conversão-de-Tipos-de-Dados)
-- ## ConditionalsConditionals
+- [Conditionals](#Conditionals)
 - ## Truthy_Falsy
 - ## Operadores_Lógicos
 - ## Loops
