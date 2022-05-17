@@ -5,7 +5,7 @@
 - [Diferença entre var e let](#Diferença-entre-var-e-let)
 - [Tipos de dados](#Tipos-de-dados)
 - [Constantes](#Constantes)
-## Operadores_Aritméticos
+- [Operadores Aritméticos](#Operadores-Aritméticos)
 ## Operadores_Comparativos
 ## Arrays
 ## Métodos
