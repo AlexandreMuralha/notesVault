@@ -18,6 +18,7 @@
 ## Manipulando o DOM
 ## Objetos
 ## DOM Events
+## Arrow_Functions
 ---
 
 ## Estrutura Léxica Básica
