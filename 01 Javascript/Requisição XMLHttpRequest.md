@@ -15,7 +15,8 @@ Exemplo Completo de Requisição XMLHttpRequest que obtem uma imagem aleatória 
 </head>
 <body>
     <h1>Imagens Aleatórios de Cachorros</h1>
-    <p>A partir do click no botão abaixo uma nova imagem aleatória de cachorros será carregada utilizando requisições assíncronas com XMLHttpRequest</p>
+    <p>A partir do click no botão abaixo uma nova imagem aleatória de cachorros será carregada utilizando 
+	requisições assíncronas com XMLHttpRequest</p>
 
     <img id="img_dog" src="" alt="Aguardando a imagem ser carregada" />
     <br/>
