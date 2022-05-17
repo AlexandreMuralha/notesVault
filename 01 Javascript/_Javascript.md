@@ -3,7 +3,7 @@
 - [Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
 - [Comentários](#Comentários)
 - [Variáveis](#Variáveis)
-	- ### (#Diferença entre var e let)
+	- [Diferença entre ](#Diferença entre var e let)
 - ## Tipos_de_dados
 	- ### Number
 - [Constantes](#Constantes)
