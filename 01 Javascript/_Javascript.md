@@ -7,10 +7,10 @@
 - [Constantes](#Constantes)
 - [Operadores Aritméticos](#Operadores-Aritméticos)
 - [Operadores_Comparativos](#Operadores-Comparativos)
-## Arrays
-## Métodos
-## Conversão_de_Tipos_de_Dados
-## Conditionals
+- ## Arrays
+- ## Métodos
+- ## Conversão_de_Tipos_de_Dados
+- ## Conditionals
 ## Truthy_Falsy
 ## Operadores_Lógicos
 ## Loops
