@@ -1,7 +1,7 @@
 # Javascript Básico
 ---
 - [Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
-- ## (#Comentários)
+- ## [Comen](#Comentários)
 - ## Variáveis
 	- ### Diferença entre var e let
 - ## Tipos_de_dados
