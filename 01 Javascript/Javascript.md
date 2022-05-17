@@ -8,7 +8,7 @@
 - [Operadores Aritméticos](#Operadores-Aritméticos)
 - [Operadores Comparativos](#Operadores-Comparativos)
 - [Arrays](#Arrays)
-- [Métodos]Métodos
+- [Métodos](#Métodos)
 - ## Conversão_de_Tipos_de_Dados
 - ## Conditionals
 - ## Truthy_Falsy
