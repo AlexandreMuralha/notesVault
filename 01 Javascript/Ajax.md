@@ -65,3 +65,7 @@ ajax.open("GET", "http://jsonplaceholder.typicode.com/posts/1", true)
 // faz a requisição ao servidor
 ajax.send();
 ```
+
+
+Links:
+https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHTTPRequest
