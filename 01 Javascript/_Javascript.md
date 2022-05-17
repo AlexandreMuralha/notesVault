@@ -19,8 +19,8 @@
 - ## Objetos
 - ## DOM Events
 - ## Arrow_Functions
-## Destructuring
-## ES7
+- ## Destructuring
+- ## ES7
 ## ES8
 ---
 
