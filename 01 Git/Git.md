@@ -68,7 +68,7 @@ $ git diff [ash-do-comit] [ash-do-comit] #Mostra todas as alterações efetuadas
 $ git --staged #Mostra todas as alterações nos arquivos que estão na stagging area
 $ gitk #Abre o visualizador de relatórios
 $ git reset head [nome-do-arquivo] #Remove da stagging area um arquivo adicionado por engano
-*$ git checkout --[nome do arquivo] #descarta as mudanças efectuadas no arquivo, retomando o arquivo para o ultimo commit
+$ git checkout --[nome do arquivo] #descarta as mudanças efectuadas no arquivo, retomando o arquivo para o ultimo commit
 $ git rm [nome-do-arquivo] #Remove do registro do repo os arquivos nomeados
 ```
 
