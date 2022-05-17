@@ -18,7 +18,7 @@
 - [Manipulando o DOM](#Manipulando o DOM)
 - [Objetos](#Objetos)
 - [DOM Events](#DOM-Events)
-- [Arrow_Functions] - #(#Arrow_Functions)
+- [Arrow_Functions](#Arrow-Functions)
 - [Destructuring](#Destructuring)
 - [ES7](#ES7)
 - [ES8](#ES8)
