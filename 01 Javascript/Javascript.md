@@ -88,7 +88,7 @@ Como se fosse uma variável mas o seu valor é permanente.
 
 ---
 
-## Tipos_de_dados
+## Tipos de dados
    1. **Tipos de dados**
 
    Apesar do Javascript ser uma linguagem **não tipada**, os seus valores tem tipos. Eles podem ser:
