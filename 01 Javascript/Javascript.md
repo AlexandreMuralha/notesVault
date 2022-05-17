@@ -13,8 +13,8 @@
 - [Conditionals](#Conditionals)
 - [Truthy Falsy](#Truthy-Falsy)
 - [Operadores_Lógicos](#Operadores_Lógicos)
-- ## [Loops] - ## Loops
-- ## Funções - ## Funções
+- ## [Loops] -(#Loops
+- ## [Funções] - ## Funções
 - ## Manipulando o DOM - ## Manipulando o DOM
 - ## Objetos - ## Objetos
 - ## DOM Events - ## DOM Events
