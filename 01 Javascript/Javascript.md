@@ -20,8 +20,8 @@
 - ## [DOM Events] - ## DOM Events
  - ## [Arrow_Functions] - ## Arrow_Functions
 - ## [Destructuring] - ## Destructuring
-- ## ES7 - ## ES7
-- ## ES8 - ## ES8
+- ## [ES7] - ## ES7
+- ## [ES8] - ## ES8
 ---
 
 ## Estrutura Léxica Básica
