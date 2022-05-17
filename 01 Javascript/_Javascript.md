@@ -17,6 +17,7 @@
 ## Funções
 ## Manipulando o DOM
 ## Objetos
+## DOM Events
 ---
 
 ## Estrutura Léxica Básica
