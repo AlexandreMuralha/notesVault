@@ -1241,7 +1241,7 @@ Para ver a lista das key code:
 
 ---
 
-## Arrow_Functions
+## Arrow Functions
 Comparativo entre a sintaxe padrão de uma função em Javascript e sintaxe duma Arrow Function:
 
 Padrão:
