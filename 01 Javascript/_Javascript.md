@@ -11,6 +11,10 @@
 ## Métodos
 ## Conversão_de_Tipos_de_Dados
 ## Conditionals
+## Truthy_Falsy
+## Operadores_Lógicos
+## Loops
+## Funções
 ---
 
 ## Estrutura Léxica Básica
