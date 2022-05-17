@@ -9,7 +9,7 @@
 - [Operadores Comparativos](#Operadores-Comparativos)
 - [Arrays](#Arrays)
 - [Métodos](#Métodos)
-- [Conversão_de_Tipos_de_Dados](#Conversão-de-Tipos-de-Dados)
+- [Conversão de Tipos de Dados](#Conversão-de-Tipos-de-Dados)
 - ## Conditionals
 - ## Truthy_Falsy
 - ## Operadores_Lógicos
