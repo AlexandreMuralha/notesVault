@@ -692,7 +692,7 @@ Ex:
 
 ---
 
-## Truthy_Falsy
+## Truthy Falsy
 
 Valores **Truthy** são os que são representados por **true** em contexto booleano.
 
@@ -724,7 +724,7 @@ Ex: Testando se 1 e 0 são valores Truthy ou Falsy:
 
 ---
 
-## Operadores_Lógicos
+## Operadores Lógicos
 
 Operadores Lógicos servem para combinar ou inverter valores booleanos.
 
