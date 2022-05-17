@@ -4,8 +4,8 @@
 - [Comentários](#Comentários)
 - [Variáveis](#Variáveis)
 	- [Diferença entre var e let](#Diferença entre var e let)
-- [Tipos](#Tipos de dados)
-	- ### Number
+- [Tipos de dados](#Tipos de dados)
+	- [Number](#Number)
 - [Constantes](#Constantes)
 
 ---
