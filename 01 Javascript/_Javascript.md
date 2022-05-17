@@ -11,12 +11,12 @@
 - ## Métodos
 - ## Conversão_de_Tipos_de_Dados
 - ## Conditionals
-## Truthy_Falsy
-## Operadores_Lógicos
-## Loops
-## Funções
-## Manipulando o DOM
-## Objetos
+- ## Truthy_Falsy
+- ## Operadores_Lógicos
+- ## Loops
+- ## Funções
+- ## Manipulando o DOM
+- ## Objetos
 ## DOM Events
 ## Arrow_Functions
 ## Destructuring
