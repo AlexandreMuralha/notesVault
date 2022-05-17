@@ -8,6 +8,7 @@
 ## Operadores_Aritméticos
 ## Operadores_Comparativos
 ## Arrays
+## Métodos
 ---
 
 ## Estrutura Léxica Básica
