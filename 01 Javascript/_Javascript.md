@@ -1,5 +1,4 @@
 # Javascript Básico
----
 - [Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
 - [Comentários](#Comentários)
 - [Variáveis](#Variáveis)
