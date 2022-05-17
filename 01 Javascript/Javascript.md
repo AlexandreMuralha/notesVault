@@ -6,9 +6,9 @@
 - [Tipos de dados](#Tipos-de-dados)
 - [Constantes](#Constantes)
 - [Operadores Aritméticos](#Operadores-Aritméticos)
-- [Operadores_Comparativos](#Operadores-Comparativos)
+- [Operadores Comparativos](#Operadores-Comparativos)
 - [Arrays](#Arrays)
-- ## Métodos
+- [Métodos]Métodos
 - ## Conversão_de_Tipos_de_Dados
 - ## Conditionals
 - ## Truthy_Falsy
