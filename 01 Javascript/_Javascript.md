@@ -9,6 +9,7 @@
 ## Operadores_Comparativos
 ## Arrays
 ## Métodos
+## Conversão_de_Tipos_de_Dados
 ---
 
 ## Estrutura Léxica Básica
