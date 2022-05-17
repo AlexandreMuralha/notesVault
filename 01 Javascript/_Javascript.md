@@ -16,6 +16,7 @@
 ## Loops
 ## Funções
 ## Manipulando o DOM
+## Objetos
 ---
 
 ## Estrutura Léxica Básica
