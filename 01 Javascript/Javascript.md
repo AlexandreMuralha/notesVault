@@ -15,11 +15,11 @@
 - [Operadores_Lógicos](#Operadores_Lógicos)
 - [Loops](#Loops)
 - [Funções](#Funções)
-- ## Manipulando o DOM - ## Manipulando o DOM
-- ## Objetos - ## Objetos
-- ## DOM Events - ## DOM Events
- - ## Arrow_Functions - ## Arrow_Functions
-- ## Destructuring - ## Destructuring
+- [Manipulando o DOM](#Manipulando o DOM)
+- ## [Objetos] - ## Objetos
+- ## [DOM Events] - ## DOM Events
+ - ## [Arrow_Functions] - ## Arrow_Functions
+- ## [Destructuring] - ## Destructuring
 - ## ES7 - ## ES7
 - ## ES8 - ## ES8
 ---
