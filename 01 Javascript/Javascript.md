@@ -11,7 +11,7 @@
 - [Métodos](#Métodos)
 - [Conversão de Tipos de Dados](#Conversão-de-Tipos-de-Dados)
 - [Conditionals](#Conditionals)
-- [Truth](#Truthy-Falsy)
+- [Truthy Falsy](#Truthy-Falsy)
 - ## Operadores_Lógicos
 - ## Loops
 - ## Funções
