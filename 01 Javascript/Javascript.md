@@ -257,7 +257,7 @@ imprimindo todos os numeros pares entre 0 e 20. (divisiveis por 2, dando resto 0
  
  ---
 
-## Operadores_Comparativos
+## Operadores Comparativos
 
 Operadores Comparativos servem para testar e comparar valores.
 
