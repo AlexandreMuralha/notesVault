@@ -21,7 +21,7 @@
 - ## Arrow_Functions
 - ## Destructuring
 - ## ES7
-## ES8
+- ## ES8
 ---
 
 ## Estrutura Léxica Básica
