@@ -1,9 +1,9 @@
 06_Tools Index
 
-* [$index-06 Tools]($index-06 Tools.md)
-* [$index_06_Tools]($index_06_Tools.md)
-* [IntelliJ IDEA Shorcuts](IntelliJ IDEA Shorcuts.md)
-* [VSCode Configs](VSCode Configs.md)
-* [VSCode Shortcuts](VSCode Shortcuts.md)
+* [IntelliJ_IDEA_Shorcuts](IntelliJ_IDEA_Shorcuts.md)
 * [VSCode](VSCode.md)
-* [Windows Terminal Configs](Windows Terminal Configs.md)
+* [VSCode_Configs](VSCode_Configs.md)
+* [VSCode_Shortcuts](VSCode_Shortcuts.md)
+* [Windows_Terminal_Configs](Windows_Terminal_Configs.md)
+
+[Back](./../index.md)

@@ -1,9 +1,10 @@
 01_Javascript Index
 
-* [$index_01_Javascript]($index_01_Javascript.md)
 * [Ajax](Ajax.md)
 * [JAMStack](JAMStack.md)
-* [Javascript Links](Javascript Links.md)
-* [Javascript Snipets](Javascript Snipets.md)
 * [Javascript](Javascript.md)
-* [Requisição XMLHttpRequest](Requisição XMLHttpRequest.md)
+* [Javascript_Links](Javascript_Links.md)
+* [Javascript_Snipets](Javascript_Snipets.md)
+* [Requisição_XMLHttpRequest](Requisição_XMLHttpRequest.md)
+
+[Back](./../index.md)
