@@ -19,4 +19,4 @@ You can browse the notes using the directories or open the file [index.md](index
 
 ---
 - O repositório possui um arquivo [index](index.md) que funciona como ponto de entrada, listando os index de cada diretório. 
-- Cada index de diretório lista todas as notas nele contidas, tanto o arquivo index principal como os arquivos index dos diretórios são gerados automáticamente atráves de um [script]() python escrito por mim.
+- Cada index de diretório lista todas as notas nele contidas, tanto o arquivo index principal como os arquivos index dos diretórios são gerados automáticamente atráves de um [script](create_index_all_dir.py) python escrito por mim.
