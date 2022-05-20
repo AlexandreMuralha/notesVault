@@ -11,7 +11,7 @@ Usually I create/edit/search this repo using [obsidian](https://obsidian.md/) wi
 
 ---
 
-You can browse the notes using the directories or open the file [index.md](index.md)
+You can browse the notes using the directories or use file [index.md](index.md)
 
 Navegue pelas notas usando os diretórios ou abra o arquivo [index.md](index.md)
 
