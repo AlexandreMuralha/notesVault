@@ -22,7 +22,7 @@ for dir_name in dir_names:
     filenames = next(walk('./{}'.format(dir_name)), (None, None, []))[2]
     file = open("./{}/$index_{}.md".format(dir_name, dir_name), "w")
     file.write('{} Index'.format(dir_name) + '\n')
-    
+    print('{} Index'.format(dir_name))
 
     # Main index
     # ignores directories starting with . or _
