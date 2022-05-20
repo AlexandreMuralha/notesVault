@@ -1,11 +1,11 @@
 # Javascript Snipets
-[Array](#Array)
-[Date](#Date)
-[Number](#Number)
-[String](#String)
-[DOM](#DOM)
-[Function](#Function)
-[Misc](#Misc)
+- [Array](#Array)
+- [Date](#Date)
+- [Number](#Number)
+- [String](#String)
+- [DOM](#DOM)
+- [Function](#Function)
+- [Misc](#Misc)
 
 
 ## Array
