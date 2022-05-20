@@ -13,4 +13,4 @@ Navegue pelas notas usando os diretórios ou abra o arquivo [index.md](index.md)
 
 ---
 
-English version of this README [here](README.md)
+English version [here](README.md)

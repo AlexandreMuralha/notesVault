@@ -56,6 +56,5 @@ Exemplo Completo de Requisição XMLHttpRequest que obtem uma imagem aleatória 
 
 
 ---
-**ID**:  2111201808
 **tags**: #ajax #javascript 
-**references**:
+

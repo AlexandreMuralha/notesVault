@@ -1,3 +1,13 @@
+# Javascript Snipets
+[Array](#Array)
+[Date](#Date)
+[Number](#Number)
+[String](#String)
+[DOM](#DOM)
+[Function](#Function)
+[Misc](#Misc)
+
+
 ## Array
 ### Shuffle an Array
 
@@ -75,18 +85,6 @@ const difference = (a, b) => {
 
 difference([1, 2, 3], [1, 2, 4]); // [3]
 //This snippet finds the difference between two arrays.
-```
-
----
-
-## Function
-
-### Create an empty function
-
-```jsx
-const noop = () => {};
-// Or
-const noop = Function.prototype;
 ```
 
 ---
@@ -189,7 +187,7 @@ const capitalize = str => `${str.charAt(0).toUpperCase()}${str.slice(1)}`;
 ### Reverse a string
 You can easily reverse a string using `split`, `reverse` and `join` methods.  
 
-```
+```jsx
 const reverse = str => str.split('').reverse().join('');
 
 reverse('hello world');     
@@ -219,6 +217,18 @@ arrayToHtmlList(['item 1', 'item 2'], 'myListID');
 ```jsx
 const currentURL = () => window.location.href;
 //This snippet returns the current URL
+```
+
+---
+
+## Function
+
+### Create an empty function
+
+```jsx
+const noop = () => {};
+// Or
+const noop = Function.prototype;
 ```
 
 ---
