@@ -6,5 +6,5 @@ Um número significativo de aplicativos desktop é construído com o Electron, d
 
 ---
 
-[Electron on WSL](Electron%20on%20WSL.md)
-[Electron Packager](Electron%20Packager.md)
+- [Electron on WSL](Electron%20on%20WSL.md)
+- [Electron Packager](Electron%20Packager.md)
