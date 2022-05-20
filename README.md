@@ -6,10 +6,8 @@ Versão pt-br [aqui](README-pt.md)
 ---
 
 This repo stores my study/tech notes. Some are in english, some in portuguese.
-Usually I create/edit/search this notes using [obsidian](https://obsidian.md/) or [vscode](https://code.visualstudio.com/)
+Usually I create/edit/search this notes using [obsidian](https://obsidian.md/) with [obsidian git](https://github.com/denolehov/obsidian-git) plugin or [vscode](https://code.visualstudio.com/)
 
-Este repositório guarda as minhas notas técnicas/de estudo. Algumas em inglês, outras em português.
-Para criar/editar as notas geralmente uso o  [obsidian](https://obsidian.md/) ou [vscode](https://code.visualstudio.com/)
 
 ---
 
