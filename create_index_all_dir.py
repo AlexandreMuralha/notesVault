@@ -30,6 +30,8 @@ for dir_name in dir_names:
         main_index.write('\n' + '* [' + dir_name + ']' +
                          '(' + dir_name + '/$index-' + dir_name + '.md)')
 
+    file.write('{} Index'.format(dir_name) + '\n')
+
     for filename in filenames:
         if filename.endswith(".md"):  # apenas ficheiros .md
             # descarta o proprio index da lista
