@@ -1,5 +1,4 @@
 06_Tools Index
-06_Tools Index
 
 * [$index-06 Tools]($index-06 Tools.md)
 * [$index_06_Tools]($index_06_Tools.md)
