@@ -22,7 +22,8 @@ for dir_name in dir_names:
     filenames = next(walk('./{}'.format(dir_name)), (None, None, []))[2]
     file = open("./{}/$index_{}.md".format(dir_name, dir_name), "w")
     file.write('{} Index'.format(dir_name) + '\n')
-    print('created: {} Index'.format(dir_name))
+    print('{} Index - Done'.format(dir_name))
+    
 
     # Main index
     # ignores directories starting with . or _
@@ -30,6 +31,7 @@ for dir_name in dir_names:
         # adds each dir index to main index
         main_index.write('\n' + '* [' + dir_name + ']' +
                          '(' + dir_name + '/$index_' + dir_name + '.md)')
+    
 
     for filename in filenames:
         if filename.endswith(".md"):  # apenas ficheiros .md
