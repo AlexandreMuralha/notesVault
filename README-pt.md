@@ -3,6 +3,8 @@
 
 English version of this README [here](README.md)
 
+---
+
 Este repositório guarda as minhas notas técnicas/de estudo. Algumas em inglês, outras em português.
 Para criar/editar as notas geralmente uso o  [obsidian](https://obsidian.md/) ou [vscode](https://code.visualstudio.com/)
 

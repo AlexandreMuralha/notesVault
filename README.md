@@ -1,7 +1,9 @@
 # notesVault 📖
 
 
-Leia esta página em português [aqui](README-pt.md)
+Versão em ortugue aqui [aqui](README-pt.md)
+
+---
 
 This repo stores my study/tech notes. Some are in english, some in portuguese.
 Usually I create/edit/search this notes using [obsidian](https://obsidian.md/) or [vscode](https://code.visualstudio.com/)
