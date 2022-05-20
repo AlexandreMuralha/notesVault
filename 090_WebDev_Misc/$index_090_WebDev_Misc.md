@@ -1,0 +1,13 @@
+090_WebDev_Misc Index
+
+* [API](API.md)
+* [Chrome-Storage-Sync](Chrome-Storage-Sync.md)
+* [JSON](JSON.md)
+* [Markdown_cheatsheat](Markdown_cheatsheat.md)
+* [SPA_e_Aplicacoes_Web](SPA_e_Aplicacoes_Web.md)
+* [Trasmissão_de_dados](Trasmissão_de_dados.md)
+* [Vite](Vite.md)
+* [XML](XML.md)
+* [YAML](YAML.md)
+
+[Back](./../index.md)
