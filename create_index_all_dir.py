@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-'''This script creates an Index '''
+'''This script creates an Index of all md files for every directory in the current one'''
 '''
 Note1: This script creates index files listing all markdown files for each sub-directory in the current one, it will ignore any sub-directory inside those main directories.
 Note2: In order to keep the navigation consistent (in github, obsidian, etc) it´s important to name the files/folders without spaces.
