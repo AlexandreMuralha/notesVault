@@ -21,7 +21,7 @@ for dir_name in dir_names:
     # gets all filenames on the current Dir, [] if no file
     filenames = next(walk('./{}'.format(dir_name)), (None, None, []))[2]
     file = open("./{}/$index_{}.md".format(dir_name, dir_name), "w")
-    file.write('#Index - {}'.format(dir_name) + '\n')
+    file.write('Index - {}'.format(dir_name) + '\n')
 
     # Main index
     # ignores directories starting with . or _
