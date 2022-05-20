@@ -1,7 +1,7 @@
 # main index
 * [01_Javascript]($index_01_Javascript.md)
 * [02_React]($index_02_React.md)
-* [05_Git](05_Git/$index_05_Git.md)
+* [05_Git]($index_05_Git.md)
 * [05_Python]($index_05_Python.md)
 * [05_SQL]($index_05_SQL.md)
 * [06_Tools]($index_06_Tools.md)
