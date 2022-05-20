@@ -1,10 +1,7 @@
 # notesVault 📖
 
 
-Leia esta página em português [aqui](README-pt.md)
-
-This repo stores my study/tech notes. Some are in english, some in portuguese.
-Usually I create/edit/search this notes using [obsidian](https://obsidian.md/) or [vscode](https://code.visualstudio.com/)
+English version of this README [here](README.md)
 
 Este repositório guarda as minhas notas técnicas/de estudo. Algumas em inglês, outras em português.
 Para criar/editar as notas geralmente uso o  [obsidian](https://obsidian.md/) ou [vscode](https://code.visualstudio.com/)
@@ -12,8 +9,6 @@ Para criar/editar as notas geralmente uso o  [obsidian](https://obsidian.md/) ou
 ---
 
 Navegue pelas notas usando os diretórios ou abra o arquivo [index.md](index.md)
-
-You can browse the notes using the directories or open the file [index.md](index.md)
 
 ---
 - O repositório possui um arquivo [index](index.md) que funciona como ponto de entrada, listando os index de cada diretório. 
