@@ -7,7 +7,7 @@ ex: um site que possua um chat integrado (ex:facebook) precisaria de recarregar 
 
 ### XMLHttpRequest - Propriedades
 
-[Exemplo Completo de Requisição XMLHttpRequest](Requisição_XMLHttpRequest.md)
+[Exemplo Completo de Requisição XMLHttpRequest](Requisicao_XMLHttpRequest.md)
 
 #### readyState
 ```Javascript
