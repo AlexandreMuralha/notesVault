@@ -1,4 +1,4 @@
-# notesVault 
+# notesVault 📄
 
 This repository stores my study/tech notes. Some are in english, some in portuguese.
 
