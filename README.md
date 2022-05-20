@@ -1,7 +1,7 @@
 # notesVault 📖
 
 
-Versão em ortugue aqui [aqui](README-pt.md)
+Versão pt-br [aqui](README-pt.md)
 
 ---
 
