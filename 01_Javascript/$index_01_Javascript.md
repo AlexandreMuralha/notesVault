@@ -1,5 +1,6 @@
-Index - 01_Javascript
+01_Javascript Index
 
+* [$index_01_Javascript]($index_01_Javascript.md)
 * [Ajax](Ajax.md)
 * [JAMStack](JAMStack.md)
 * [Javascript Links](Javascript Links.md)
