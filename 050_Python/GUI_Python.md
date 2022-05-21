@@ -7,6 +7,11 @@ Entre os frameworks para aplicações GUI mais comuns estão:
 #### Flexx
 #### CEF Python
 #### Kivy
+#### Pyforms
+#### PyQt
+#### wxPython
+
+#### PyAutoGUI
 
 #### Tkinter
 
