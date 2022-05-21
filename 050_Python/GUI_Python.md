@@ -6,12 +6,12 @@ Entre os frameworks para aplicações GUI mais comuns estão:
 [Tkinter](#Tkinter)
 [Flexx](#Flexx)
 [CEF Python](#CEF%Python)
-###(#Kivy)
-###(#Pyforms)
-###(#PyQt)
+[Kivy](#Kivy)
+[Pyforms](#Pyforms)
+[PyQt](#PyQt)
 [wxPython](#wxPython)
-[###](#PyAutoGUI)
-[###](#PySimpleGUI)
+[PyAutoGui](#PyAutoGUI)
+[PySimpleGUI](#PySimpleGUI)
 
 #### Tkinter
 
