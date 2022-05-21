@@ -5,8 +5,8 @@
 [Comandos Básicos](#Comandos%Básicos)
 [Branches](#Branches)
 [Tags](#Tags)
-### Outros%Comandos)
-### Git Rebase
+[Outros Comandos](#Outros%Comandos)
+[Git Rebase](#Git%Rebase)
 [GitHub](#GitHub)
 [GitHub Workflow](#GitHub%Workflow)
 [Forks](#Forks)
