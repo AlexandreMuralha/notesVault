@@ -3,11 +3,14 @@ A linguagem Python possui muitos frameworks para desenvolvimento de aplicações
 O framework mais comum é o Tkinter que já faz parte da instalação Python, mas existem outros frameworks que têm características específicas que podem torná-los a escolha adequada para um projeto.
 
 Entre os frameworks para aplicações GUI mais comuns estão:
-###(#Tkinter
+[Tkinter](#Tkinter)
+#### Flexx
+#### CEF Python
+#### Kivy
 
 #### Tkinter
 
-[Tkinter](Tkinter.md)
+[Tkinter note](Tkinter.md)
 
 É o framework GUI padrão do Python. Sua sintaxe é simples, possui muitos componentes para interação com o usuário. Além disso, seu código é aberto e é disponível sob a licença Python. Caso ela não esteja instalada na sua versão do Python, basta digitar o comando:
 
