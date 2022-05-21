@@ -1,6 +1,5 @@
 # Javascript
 - [Estrutura Léxica Básica](#Estrutura-Léxica-Básica)
-- [Comentários](#Comentários)
 - [Variáveis](#Variáveis)
 - [Diferença entre var e let](#Diferença-entre-var-e-let)
 - [Constantes](#Constantes)
@@ -39,8 +38,7 @@
 
    Lista de palavras reservadas [aqui.](https://www.w3schools.com/js/js_reserved.asp)
 
----
-## Comentários
+### Comentários
 ```javascript
     // Este é um comentário de uma linha
     /* Este é um comentário de várias linhas
@@ -78,7 +76,7 @@ Sobre [Escopo](#Escopo)
 Como se fosse uma variável mas seu valor é permanente.
 As vantagens de usar uma constante prende sobretudo com a questão da segurança e performance. 
 
-> É considerado uma boa prática nomear as constantes com letras maiúsculas para ser mais facilmente diferenciadas das variáveis.
+> É considerado uma boa prática nomear as constantes com letras maiúsculas para serem mais facilmente diferenciadas das variáveis.
 
    Sintaxe:
   ```javascript
@@ -89,7 +87,7 @@ As vantagens de usar uma constante prende sobretudo com a questão da segurança
 
 ## Tipos de dados
 
-   Apesar do Javascript ser uma linguagem **não tipada**, os seus valores tem tipos. Eles podem ser:
+   Apesar de Javascript ser uma linguagem **não tipada**, os seus valores tem tipos. Eles podem ser:
 
    - [Number](#Number) (inteiro ou de ponto flutuante)
    - [String](#String) (texto)
