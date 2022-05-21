@@ -1,11 +1,11 @@
 
 # Git 
 [Fundamentos](#Fundamentos)
-[Configura](#Configuração)
-###Comandos Básicos
-###Branches
-###Tags
-### Outros Comandos
+[Configuração](#Configuração)
+[Comandos Básicos](#Comandos%Básicos)
+[Branches](#Branches)
+[Tags](#Tags)
+### Outros%Comandos)
 ### Git Rebase
 [GitHub](#GitHub)
 [GitHub Workflow](#GitHub%Workflow)
