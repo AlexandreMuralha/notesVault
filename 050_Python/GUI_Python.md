@@ -4,14 +4,14 @@ O framework mais comum é o Tkinter que já faz parte da instalação Python, 
 
 Entre os frameworks para aplicações GUI mais comuns estão:
 [Tkinter](#Tkinter)
-###(#Flexx)
-###(#CEF Python)
+[Flexx](#Flexx)
+[CEF Python](#CEF%Python)
 ###(#Kivy)
 ###(#Pyforms)
 ###(#PyQt)
-###(#wxPython
-#### PyAutoGUI
-#### PySimpleGUI
+[wxPython](#wxPython)
+[###](#PyAutoGUI)
+[###](#PySimpleGUI)
 
 #### Tkinter
 
