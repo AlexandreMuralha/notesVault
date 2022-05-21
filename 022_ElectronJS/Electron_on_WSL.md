@@ -1,5 +1,3 @@
-20200518_220912
-
 ### Electron on WSL
 
 After hours falling into a bunch of errors while trying to launch electron from WSL, I found the easiest way is to install electron on Windows then start it from WSL.Steps:
