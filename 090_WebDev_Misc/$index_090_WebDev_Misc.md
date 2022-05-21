@@ -5,7 +5,7 @@
 * [JSON](JSON.md)
 * [Markdown_cheatsheat](Markdown_cheatsheat.md)
 * [SPA_e_Aplicacoes_Web](SPA_e_Aplicacoes_Web.md)
-* [Trasmissão_de_dados](Trasmissão_de_dados.md)
+* [Trasmissao_de_dados](Trasmissao_de_dados.md)
 * [Vite](Vite.md)
 * [XML](XML.md)
 * [YAML](YAML.md)
