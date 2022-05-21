@@ -1,17 +1,17 @@
 
 # Git 
-[Fundamentos](#Fundamentos)
-[Configuração](#Configuração)
-[Comandos Básicos](#Comandos%Básicos)
-[Branches](#Branches)
-[Tags](#Tags)
-[Outros Comandos](#Outros%Comandos)
-[Git Rebase](#Git%Rebase)
-[GitHub](#GitHub)
-[GitHub Workflow](#GitHub%Workflow)
-[Forks](#Forks)
-[Gists](#Gists)
-[GitHub Organizations](#Github%Organizations)
+- [Fundamentos](#Fundamentos)
+- [Configuração](#Configuração)
+- [Comandos Básicos](#Comandos%Básicos)
+- [Branches](#Branches)
+- [Tags](#Tags)
+- [Outros Comandos](#Outros%Comandos)
+- [Git Rebase](#Git%Rebase)
+- [GitHub](#GitHub)
+- [GitHub Workflow](#GitHub%Workflow)
+- [Forks](#Forks)
+- [Gists](#Gists)
+- [GitHub Organizations](#Github%Organizations)
 
 ### Fundamentos 
 
