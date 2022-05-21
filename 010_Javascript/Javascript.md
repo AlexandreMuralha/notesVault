@@ -3,8 +3,8 @@
 - [Comentários](#Comentários)
 - [Variáveis](#Variáveis)
 - [Diferença entre var e let](#Diferença-entre-var-e-let)
-- [Tipos de dados](#Tipos-de-dados)
 - [Constantes](#Constantes)
+- [Tipos de dados](#Tipos-de-dados)
 - [Operadores Aritméticos](#Operadores-Aritméticos)
 - [Operadores Comparativos](#Operadores-Comparativos)
 - [Arrays](#Arrays)
@@ -15,6 +15,7 @@
 - [Operadores Lógicos](#Operadores_Lógicos)
 - [Loops](#Loops)
 - [Funções](#Funções)
+- [Escopo](#Escopo)
 - [Manipulando o DOM](#Manipulando-o-DOM)
 - [Objetos](#Objetos)
 - [DOM Events](#DOM-Events)
@@ -34,13 +35,13 @@
    - Digitos de 0 a 9
    - Caracteres Unicode (não aconselhável, considerado má prática)
 
-   O javascript possui algumas palavras reservadas. Não podem ser usadas como identificadores, porque já possuem uma função especifica no core da linguagem.
+   O javascript possui algumas palavras reservadas, as quais não podem ser usadas como identificadores devido a já possuírem uma função específica no core da linguagem.
 
    Lista de palavras reservadas [aqui.](https://www.w3schools.com/js/js_reserved.asp)
 
 ---
 ## Comentários
-```jsx
+```javascript
     // Este é um comentário de uma linha
     /* Este é um comentário de várias linhas
     Outra linha...
@@ -50,8 +51,6 @@
 ---
 
 ## Variáveis
-
-   Uma **variável** é um objeto (uma posição, frequentemente localizada na [memória](https://pt.wikipedia.org/wiki/Mem%C3%B3ria_%28computador%29)) capaz de reter e representar um valor ou expressão.
 
    Regras para nomear variáveis:
    - Nomes de variáveis devem começar por letras ou underscore ou cifrão, não podem contudo começar por números.
@@ -70,43 +69,40 @@
    - Variáveis definidas com a palavra **var** podem ter escopo de global ou de função.
    - Variáveis definidas com a palavra **let** podem ter escopo global, de função e de bloco.
 
+Sobre [Escopo](#Escopo)
+
 ---
 
 ## Constantes
 
-Como se fosse uma variável mas o seu valor é permanente.
+Como se fosse uma variável mas seu valor é permanente.
+As vantagens de usar uma constante prende sobretudo com a questão da segurança e performance. 
 
-   As vantagens de usar uma constante prende sobretudo com a questão da segurança e performance. Uma outra vantagem da constante relativamente à variável é que seja o valor desta necessite ser alterado no código, ela apenas precisa ser alterada uma vez.
-
-   É considerado uma boa prática nomear as constantes com letras maiúsculas para ser mais facilmente diferenciadas das variáveis.
+> É considerado uma boa prática nomear as constantes com letras maiúsculas para ser mais facilmente diferenciadas das variáveis.
 
    Sintaxe:
-
-  ```jsx
+  ```javascript
     const nome = x
   ```
 
 ---
 
 ## Tipos de dados
-   1. **Tipos de dados**
 
    Apesar do Javascript ser uma linguagem **não tipada**, os seus valores tem tipos. Eles podem ser:
 
-   - [Number](Javascript.md###Number) (inteiro ou de ponto flutuante)
-   - [String](Javascript.md###String) (texto)
+   - [Number](#Number) (inteiro ou de ponto flutuante)
+   - [String](#String) (texto)
    - Booleano (verdadeiro ou falso)
    - Undefined
    - Null
    - Object
 
-   como descobrir o tipo de uma variável:
 
-   Operador **typeof**
+Operador **typeof** retorna o tipo de uma variável:
 
-   Ex:
-
-```jsx
+ Ex:
+```javascript
     var a = 10, b = "Pedra", c = 45, d = true, e = 0;
     document.write("a é " + typeof a + "<br>")
     document.write("b é " + typeof b + "<br>")
@@ -118,14 +114,14 @@ Como se fosse uma variável mas o seu valor é permanente.
 
    Atribuir um número a uma variável:
 
-```jsx
+```javascript
     const peso1 = 1.0
     const peso2 = Numbem('2.0') // Forma Alternativa
 ```
 
   Verificando se é um número inteiro:
 
-```jsx
+```javascript
     const a = 3.5
     Number.isInteger(a)
 
@@ -134,7 +130,7 @@ Como se fosse uma variável mas o seu valor é permanente.
 
  Modificando a quantidade de casas décimais de um número não inteiro:
 
-```jsx
+```javascript
     const b = 8.43421341
     b.toFixed(2)
 
@@ -150,18 +146,19 @@ Como se fosse uma variável mas o seu valor é permanente.
 
    Assim:
 
-```jsx
+```javascript
     let result = Math.random() * 100;
     result = Math.trunc(result);
 
     console.log(result);
 ```
 
-### String
 
+
+### String
 Retornando uma letra especifica de uma string:
 
-```jsx
+```javascript
     const nome = "maria"
     undefined //valor retornado
 
@@ -289,7 +286,7 @@ Serve para testar se um valor é diferente de outro, retornando True ou False.
 
 ### !== Estritamente não igual
 
-Além de testarem a igualdade da valores, testam tambem o tipo de dado dos valores
+Além de testarem a igualdade da valores, testam também o tipo de dado dos valores.
 
 ```jsx
     1 === "1"
@@ -416,7 +413,7 @@ Lista de métodos Array:
 ### document.write
 Permite escrever texto e HTML em um documento.
 
-```jsx
+```javascript
     document.write("argumentos")
 ```
 
@@ -424,7 +421,7 @@ Permite escrever texto e HTML em um documento.
 ### alert
 Exibe uma caixa de diálogo com a mensagem.
 
-```jsx
+```javascript
     alert("mensagem")
 ```
 
@@ -432,7 +429,7 @@ Exibe uma caixa de diálogo com a mensagem.
 ### prompt
 Exibe uma caixa de dialogo para inserção de dados.
 
-```jsx
+```javascript
     prompt("mensagem","[dica]")
 ```
 
@@ -446,13 +443,11 @@ Os dados retornados podem ser usados em uma variável. Caso o usuário aperte o 
 ### confirm
  Exibe uma caixa de dialogo com opção para o usuário confirmar ou cancelar uma opção.
 
-```jsx
+```javascript
     confirm("mensagem")
 ```
 
 Os dados retornados são do tipo booleano, sendo True caso o usuário selecione Ok, e false, caso clique em Cancelar.
-
-[https://www.youtube.com/watch?v=-ip-UXa3Aj8&index=3&list=PLucm8g_ezqNrXkDWHtgvtU9RGuauEs_xz](https://www.youtube.com/watch?v=-ip-UXa3Aj8&index=3&list=PLucm8g_ezqNrXkDWHtgvtU9RGuauEs_xz)
 
 ---
 
@@ -531,7 +526,7 @@ O numero dentro do parenteses indica o numero de casas decimais a exibir.
 ```
 
 
-Para definir o tamanho total do numero a ser exibido usamos o método 
+Para definir o tamanho total do numero a ser exibido usamos o método:
 
 **.toPrecision()**
 
@@ -556,11 +551,6 @@ usamos o metodo split e especificamos a virgula:
 
 
 ## Conditionals
-
-O flow do javascript é executado linha por linha, de cima para baixo.
-
-Contudo podemos condicionar… para tal usamos…
-
  - if
  - else
  - else if
@@ -796,7 +786,7 @@ ex:
 
 ## Funções
 
-Funções servem essencialmente para executar um bloco de código num ponto especifico do programa. São especialmente uteis para lançar partes especificas de código repetidamente.
+Funções servem essencialmente para executar um bloco de código num ponto especifico do programa. São especialmente úteis para lançar partes especificas de código repetidamente.
 
 Exemplos de funções já existentes:
 
@@ -854,8 +844,7 @@ A função recebe um input (dentro do parêntesis), faz a sua operação e expor
 Return sempre termina a função. Qualquer código dentro da função depois da palavra return é ignorado.
 
 Retornar múltiplos valores numa função:
-
-Return apenas retorna um valor especifico, contudo, podemos retornar multiplos valores, retornando um Array, ou um Objeto.
+- Return apenas retorna um valor especifico, contudo, podemos retornar multiplos valores, retornando um Array, ou um Objeto.
 
 Ex: função retornado um array com multimos valores:
 
@@ -1022,24 +1011,18 @@ Adicionando Javascript a uma página HTML podemos:
 - Javascript também pode reagir a todos os eventos HTML na página
 - Javascript pode criar eventos novos na página.
 
-[15%20Manipulando%20o%20DOM/untitled](https://www.notion.so/15%20Manipulando%20o%20DOM/untitled)
 
-[https://www.w3schools.com/js/js_htmldom.asp](https://www.w3schools.com/js/js_htmldom.asp)
+
 Para manipularmos o DOM da página usamos os chamados DOM selectors (seletores).
 
  Os mais comumente usados são:
-
-```jsx
+```javascript
     document.getElementsByTagName("nome_da_tag")
-
     document.getElementsByClassName("nome_da_classe")
-
     document.getElementById("id_do_elemento")
-
-    .
 ```
 
-Selecionam os elementos do DOM através da Tag, Classe e Id. Note que no caso da seleção por id, a palavra Element está no singular em vez do plural, Elements, tal se deve a que ............
+Selecionam os elementos do DOM através da Tag, Classe e Id. 
 
 Alternativamente podemos usar:
 
@@ -1092,6 +1075,8 @@ parentElement
 children
 
 **É fundamental colocar os seletores em variáveis**
+
+[w3s JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 
  ---
  
