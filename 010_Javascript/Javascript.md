@@ -16,8 +16,8 @@
 - [Loops](#Loops)
 - [Funções](#Funções)
 - [Escopo](#Escopo)
-- [Manipulando o DOM](#Manipulando-o-DOM)
 - [Objetos](#Objetos)
+- [Manipulando o DOM](#Manipulando-o-DOM)
 - [DOM Events](#DOM-Events)
 - [Arrow Functions](#Arrow-Functions)
 - [Destructuring](#Destructuring)
@@ -1002,84 +1002,6 @@ Variáveis definidas globalmente (ou seja, fora de funções especificas) são a
 	
 ----
 
-## Manipulando o DOM
-
-Adicionando Javascript a uma página HTML podemos:
-
-- Adicionar, remover ou Modificar quaisquer elementos e atributos HTML da página.
-- Modificar todos os estilos CSS da página.
-- Javascript também pode reagir a todos os eventos HTML na página
-- Javascript pode criar eventos novos na página.
-
-
-
-Para manipularmos o DOM da página usamos os chamados DOM selectors (seletores).
-
- Os mais comumente usados são:
-```javascript
-    document.getElementsByTagName("nome_da_tag")
-    document.getElementsByClassName("nome_da_classe")
-    document.getElementById("id_do_elemento")
-```
-
-Selecionam os elementos do DOM através da Tag, Classe e Id. 
-
-Alternativamente podemos usar:
-
-```jsx
-    document.querySelector("h1")
-```
-
-Quando usamos document.querySelector("") apenas o primeiro elemento é selecionado. no exemplo acima apenas o primeiro elemento h1 é selecionado. 
-	
-Para selecionarmos todos os elementos h1 utilizamos:
-
-```jsx
-    document.querySelectorAll("h1")
-```
-
-Os seletores queryselector são mais atuais e recomendáveis do que os getElementBy, contudo é muito comum encontrar-se os getELementBy.
-
-```jsx
-    getAtribute("") - retorna o valor de um elemento.
-    setAtribute("") - atribui um valor especifico a um elemento.
- ```
-Exemplo:
-
-Html:
-
-Primeiro selecionamos o html e depois retornamos ou atribuímos o valor ao elemento:
-
-document.querySelector("p").getAttribute("id");
-
-document.querySelector("p").setAttribute("id", "second");
-
-no caso atribuimos o valor "second" ao ID, que anteriormente era "first".
-
-**Changing Styles:**
-
-className
-
-classList
-
-classList.add
-
-classList.remove
-
-classList.toggle
-
-innerHTML
-
-parentElement
-
-children
-
-**É fundamental colocar os seletores em variáveis**
-
-[w3s JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
-
- ---
- 
  ## Objetos
 
 Objetos servem para agrupar vários dados num só grupo.
@@ -1139,6 +1061,76 @@ Ex:
 ```
 
  ---
+ 
+ ## Manipulando o DOM
+
+Adicionando Javascript a uma página HTML podemos:
+
+- Adicionar, remover ou Modificar quaisquer elementos e atributos HTML da página.
+- Modificar todos os estilos CSS da página.
+- Javascript também pode reagir a todos os eventos HTML na página
+- Javascript pode criar eventos novos na página.
+
+
+
+Para manipularmos o DOM da página usamos os chamados DOM selectors (seletores).
+
+ Os mais comumente usados são:
+```javascript
+    document.getElementsByTagName("nome_da_tag")
+    document.getElementsByClassName("nome_da_classe")
+    document.getElementById("id_do_elemento")
+```
+
+Selecionam os elementos do DOM através da Tag, Classe e Id. 
+
+Alternativamente podemos usar:
+
+```jsx
+    document.querySelector("h1")
+```
+
+Quando usamos document.querySelector("") apenas o primeiro elemento é selecionado. no exemplo acima apenas o primeiro elemento h1 é selecionado. 
+	
+Para selecionarmos todos os elementos h1 utilizamos:
+
+```jsx
+    document.querySelectorAll("h1")
+```
+
+Os seletores queryselector são mais atuais e recomendáveis do que os getElementBy, contudo é muito comum encontrar-se os getELementBy.
+
+```jsx
+    getAtribute("") - retorna o valor de um elemento.
+    setAtribute("") - atribui um valor especifico a um elemento.
+ ```
+
+**Changing Styles:**
+
+className
+
+classList
+
+classList.add
+
+classList.remove
+
+classList.toggle
+
+innerHTML
+
+parentElement
+
+children
+
+**É fundamental colocar os seletores em variáveis**
+
+[w3s JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
+
+ ---
+ 
+ 
+ 
 
 ## DOM Events
 
@@ -1230,7 +1222,7 @@ Para ver a lista das key code:
 Comparativo entre a sintaxe padrão de uma função em Javascript e sintaxe duma Arrow Function:
 
 Padrão:
-```jsx
+```javascript
     function myFnc() {
     .....
     }
@@ -1238,7 +1230,7 @@ Padrão:
 ```
 
 Arrow Function:
-```jsx
+```javascript
     const myFnc = () => {
     ......
     }
@@ -1246,7 +1238,7 @@ Arrow Function:
 ```
 
 Exemplos:
-```jsx
+```javascript
     function first() {
     	var greet = "Hi!";
 
@@ -1263,7 +1255,7 @@ Exemplos:
     const first = () => {
     const greet = "Hi!";
     const second = () => {
-    alert(greet);
+		alert(greet);
     }
 
     return second;
@@ -1278,8 +1270,7 @@ Exemplos:
 ## Destructuring
 Novo no ES6, o destructuring permite aceder com maior facilidade a dados dentro de arrays e objetos.
 
-```jsx
-
+```javascript
 /* Ex: Aqui acedemos às propriedades do objeto (obj) da forma convencional, atribuindo a cada uma delas uma variável. */
 
     const obj = {
@@ -1364,7 +1355,7 @@ Permite usar o expoente (multiplicar o mesmo numero base sobre sim mesmo x(expoe
 
 ### Async Await
 
-
+........
 
 ### Modules (Exports & Imports)
 Permite escrever código modular, ou seja código que poderá ser divido em multiplos ficheiros. Para isso, dentro de um ficheiro JS poderemos importar código de outro ficheiro JS.
