@@ -1,20 +1,21 @@
 # Interface Gráfica com Python
 A linguagem Python possui muitos frameworks para desenvolvimento de aplicações de interface gráfica para interação com o usuário, comumente chamandas, de GUI (Graphical User Interface).
+
 O framework mais comum é o Tkinter que já faz parte da instalação Python, mas existem outros frameworks que têm características específicas que podem torná-los a escolha adequada para um projeto.
 
-Entre os frameworks para aplicações GUI mais comuns estão:
-[Tkinter](#Tkinter)
-[Flexx](#Flexx)
-[CEF Python](#CEF%Python)
-[Kivy](#Kivy)
-[Pyforms](#Pyforms)
-[PyQt](#PyQt)
-[wxPython](#wxPython)
-[PyAutoGui](#PyAutoGUI)
-[PySimpleGUI](#PySimpleGUI)
+Frameworks para aplicações GUI mais comuns:
+- [Tkinter](#Tkinter)
+- [Flexx](#Flexx)
+- [CEF Python](#CEF%Python)
+- [Kivy](#Kivy)
+- [Pyforms](#Pyforms)
+- [PyQt](#PyQt)
+- [wxPython](#wxPython)
+- [PyAutoGui](#PyAutoGUI)
+- [PySimpleGUI](#PySimpleGUI)
+
 
 #### Tkinter
-
 [Tkinter note](Tkinter.md)
 
 É o framework GUI padrão do Python. Sua sintaxe é simples, possui muitos componentes para interação com o usuário. Além disso, seu código é aberto e é disponível sob a licença Python. Caso ela não esteja instalada na sua versão do Python, basta digitar o comando:
