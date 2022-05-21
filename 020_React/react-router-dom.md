@@ -1,8 +1,4 @@
----
-id: 2111251632
-title: React Router lib
-date-created: 211125_1611T16:32
----
+#
 **React Router** is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
 https://reactrouter.com/docs/en/v6/getting-started/overview
 
