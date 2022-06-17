@@ -1,6 +1,6 @@
 # main index
 * [010_Javascript](010_Javascript/$index_010_Javascript.md)
-* [020_React](020_React/$index_020_React.md)
+* [020_React]($index_020_React.md)
 * [021_NextJS](021_NextJS/$index_021_NextJS.md)
 * [022_ElectronJS](022_ElectronJS/$index_022_ElectronJS.md)
 * [030_CSS](030_CSS/$index_030_CSS.md)
