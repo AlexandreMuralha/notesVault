@@ -47,7 +47,7 @@ navigate('/home')
 ```
 
 
-
+### useLocation
 This hook returns the current [`location`](https://reactrouter.com/docs/en/v6/utils/location) object. This can be useful if you'd like to perform some side effect whenever the current location changes.
 
 
