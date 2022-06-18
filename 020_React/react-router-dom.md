@@ -50,6 +50,32 @@ navigate('/home')
 ### useLocation
 This hook returns the current [`location`](https://reactrouter.com/docs/en/v6/utils/location) object. This can be useful if you'd like to perform some side effect whenever the current location changes.
 
+```jsx
+import React, { useState } from 'react';  
+import { useNavigate, useLocation } from 'react-router-dom';  
+import { Urls } from "@app/routing/routing.model";  
+  
+const TopBar = () => {  
+  const currentRoute = useLocation();  
+  const navigateTo = useNavigate();  
+  const handleOnClickBusiness = () => navigateTo(Urls.ROOT)  
+  const handleOnClickConsumer = () => navigateTo(Urls.CONSUMER)  
+  
+  return <>  
+ <div className='' style={{ backgroundColor: '#554B94' }}>  
+ <div className='container row justify-content-start'>  
+ <div className={currentRoute.pathname.includes("consumer") ? "inactive-tab" : "active-tab"}  
+             onClick={handleOnClickBusiness}>Business  
+        </div>  
+ <div className={currentRoute.pathname.includes("consumer") ? "active-tab" : "inactive-tab"}  
+             onClick={handleOnClickConsumer}>Consumer  
+        </div>  
+ </div> </div> </>}  
+  
+export default TopBar;
+
+```
+
 
 ### exemplo de sintaxe na versão 6:
 ```tsx
