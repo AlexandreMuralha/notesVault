@@ -1,4 +1,4 @@
-040_Git Index
+Git Index
 
 * [Git](Git.md)
 * [Git_Cheatsheet](Git_Cheatsheet.md)
