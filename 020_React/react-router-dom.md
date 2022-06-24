@@ -31,7 +31,7 @@ function HomeButton() {
 
   return (
     <button type="button" onClick={handleClick}>
-      Go home
+        Go home
     </button>
   );
 }
