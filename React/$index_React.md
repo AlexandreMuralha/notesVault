@@ -6,6 +6,5 @@ React Index
 * [react-helmet-async](react-helmet-async.md)
 * [react-hook-form](react-hook-form.md)
 * [react-router-dom](react-router-dom.md)
-* [useHistory](useHistory.md)
 
 [Back](./../index.md)

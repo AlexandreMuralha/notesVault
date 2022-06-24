@@ -1,6 +1,5 @@
 WebDev_Misc Index
 
-* [$index_090_WebDev_Misc]($index_090_WebDev_Misc.md)
 * [API](API.md)
 * [Chrome-Storage-Sync](Chrome-Storage-Sync.md)
 * [JSON](JSON.md)
