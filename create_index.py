@@ -38,7 +38,7 @@ for dir_name in dir_names:
                 file.write(
                     '\n' + '* [' + filename_without_extension + ']' + '(' + filename + ')')
                 main_index.write(
-                    '   \n' + '* [' + filename_without_extension + ']' + '(' + filename + ')')
+                    '\n' '    '+ '* [' + filename_without_extension + ']' + '(' + filename + ')')
     file.write('\n\n')
     file.write('[Back](./../index.md)')
     file.close()
