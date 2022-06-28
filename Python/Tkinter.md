@@ -1,6 +1,6 @@
 ## Tkinter
 
-Tkinter is Python’s de-facto standard GUI (Graphical User Interface) package.
+💻 Tkinter is Python’s de-facto standard GUI (Graphical User Interface) package.
 
 ### Básico
 ```python
