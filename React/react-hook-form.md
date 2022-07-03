@@ -4,7 +4,6 @@ Performant, flexible and extensible forms with easy-to-use validation.
 
 https://react-hook-form.com/
 
-
 ## use in nested structures / different component
 	
 In order to put the content of the `<form>` inside a different component we must use [FormProvider, useFormContext](https://react-hook-form.com/api/useformcontext/)
@@ -59,4 +58,70 @@ const FormComponent = () => {
 }
 
 export default FormComponent;
+```
+
+
+
+### Display message and reset fields after submiting
+use  a `useState` to show the message and `reset` API from hookForm to reset the form :
+
+```javascript
+import React from "react";
+import { useForm } from "react-hook-form";
+
+const Form = ({ title }) => {
+  const [message, setMessage] = useState('');
+  const { register, handleSubmit, errors, reset } = useForm();
+
+  const onSubmit = (data, e) => {
+    e.preventDefault();
+    console.log(data);
+    setMessage(`thank you ${data.name} for your message`);
+    reset();
+  };
+
+  return (
+    <div className="formContainer">
+      <Title title="Lets stay in touch" />
+      <div className="form">
+          {message}
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <div className="form__row">
+              <input
+                className={`inputForm ${errors.name ? "inputFormError" : ""}`}
+                name="name"
+                type="text"
+                placeholder="name"
+                ref={register({ required: true })}
+              />
+
+              <input
+                className={`inputForm ${
+                  errors.surname ? "inputFormError" : ""
+                }`}
+                name="surname"
+                type="text"
+                placeholder="surname"
+                ref={register({ required: true })}
+              />
+            </div>
+            <div>
+              <textarea
+                className={`inputForm areaForm ${
+                  errors.message ? "inputFormError" : ""
+                }`}
+                name="message"
+                placeholder="Your message"
+                ref={register({ required: true })}
+              ></textarea>
+            </div>
+            <div>
+              <button className="form__formButton" type="submit">
+                Send
+              </button>
+            </div>
+          </form>
+      </div>
+    </div>
+  );
 ```

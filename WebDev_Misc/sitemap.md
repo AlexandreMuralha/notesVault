@@ -1,4 +1,4 @@
-# Sitemaps
+# Sitemap
 O sitemap.xml é um arquivo que tem a finalidade de listar as páginas de um site que gostaríamos de ter presentes nos resultados de busca.
 
 https://www.sitemaps.org/protocol.html
@@ -70,3 +70,35 @@ https://www.sitemaps.org/protocol.html
 - The default priority of a page is 0.5.
 - Please note that the priority you assign to a page is not likely to influence the position of your URLs in a search engine's result pages. Search engines may use this information when selecting between URLs on the same site, so you can use this tag to increase the likelihood that your most important pages are present in a search index.
 - Also, please note that assigning a high priority to all of the URLs on your site is not likely to help you. Since the priority is relative, it is only used to select between URLs on your site.
+
+
+
+### Adding the sitemap.xml to your React/Angular App
+
+The next step is to add your sitemap.xml file to your app. You should copy and paste the file into the base of your Angular app in the /src folder.
+
+If you're not sure if you are adding it to the right folder, the /src folder should contain your index.html, main.ts, and `robots.txt` files that make up the base of your Angular App.
+
+```json
+.........
+"prefix": "app", 
+"architect": 
+    { "build": { 
+        "builder": "@angular-devkit/build-angular:browser", 
+        "options": { 
+            "outputPath": "public", 
+            "index": "src/index.html", 
+            "main": "src/main.ts", 
+            "polyfills": 
+            "src/polyfills.ts", 
+            "tsConfig": 
+            "tsconfig.app.json", 
+            "aot": true, 
+            "assets": [ 
+                "src/favicon.ico", 
+                "src/assets", 
+                "src/robots.txt", 
+                "src/sitemap.xml", 
+            ],
+    ...................
+```
